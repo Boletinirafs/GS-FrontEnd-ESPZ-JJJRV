@@ -1,3 +1,15 @@
+/* Multiple Style */
+
+header h1,header nav ul li,footer ul li,footer p{
+    border: 5px solid rgb(164, 140, 0);
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(164, 140, 0);
+    margin: 5px;
+}
+
+
 /* HEADER */
 
 header{
@@ -11,7 +23,7 @@ header{
 header h1{
     display: flex;
     width: fit-content;
-    padding-left: 50px;
+    margin-left: 30px;
 }
 header nav{
     display: flex;
@@ -26,8 +38,9 @@ header nav ul{
 }
 header nav ul li{
     display: flex;
-    justify-content: space-evenly;
     flex: 1;
+    justify-content: space-evenly;
+    white-space: nowrap;
 }
 
 /* MAIN */
@@ -36,7 +49,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+    background-color: rgb(81, 81, 81);
 }
 
 section{
@@ -45,4 +58,22 @@ section{
     width: 50%;
     padding-left: 30px;
     padding-bottom: 30px;
+    background-color: #717474;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 20px;
+    background-color:#4a4d4d; 
+}
+
+footer p{
+    width: fit-content;
+}
+
+footer ul{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
