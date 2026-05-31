@@ -1,3 +1,4 @@
+// DARK AND LIGHT MODE SWITCH
 const lightModes = document.getElementById('light-dark')
 lightModes.addEventListener('click',()=>{
     const currentMode = lightModes.getAttribute('alt')
@@ -13,3 +14,6 @@ lightModes.addEventListener('click',()=>{
         modeSwitch.setAttribute('href','css/darkStyles.css')
     }
 })
+// DARK AND LIGHT MODE SWITCH
+
+
