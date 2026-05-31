@@ -19,3 +19,6 @@ lightModes.addEventListener('click',()=>{
         modeSwitch.setAttribute('href','css/darkStyles.css')
     }
 })
+// DARK AND LIGHT MODE SWITCH
+
+

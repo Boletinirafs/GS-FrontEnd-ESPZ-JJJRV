@@ -5,7 +5,11 @@
     box-sizing: border-box;
     text-decoration: none;
     color: inherit;
+    font-family: 'Orbitron', sans-serif;
 }
 ul,ol{
     list-style: none;
+}
+p{
+    font-family: "Space Mono", monospace;
 }
