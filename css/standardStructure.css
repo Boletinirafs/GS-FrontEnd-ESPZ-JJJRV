@@ -74,6 +74,7 @@ header nav ul li a{
     border: 1px solid transparent;
     transition: color 0.25s, border-color 0.25s, background 0.25s, box-shadow 0.25s;
 }
+
 header nav ul li a:hover {
     color: var(--destaque);
     border-color: var(--borda);

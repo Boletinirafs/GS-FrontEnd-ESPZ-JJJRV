@@ -10,3 +10,7 @@
     --texto-header: #3b0764;
     --card: #f7e9ff;
 }
+
+header nav ul li a.active{
+    background-color: #7c3aed;
+}
